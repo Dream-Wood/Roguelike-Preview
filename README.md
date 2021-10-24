@@ -6,7 +6,7 @@ All resources were created by us, except for the icon pack [Assets / UI / IconPa
 Any coincidences are just coincidences, history is fiction.
  
  Этот репозиторий был создан, чтобы продемонстрировать навыки создателя. Это также упрощенная версия другого проекта.
-Все ресурсы были созданы нами, за исключением пакета значков [Assets / UI / IconPack (by Iconfinder)]
+Все ресурсы были созданы мной, за исключением пакета значков [Assets / UI / IconPack (by Iconfinder)]
 Любые совпадения - просто совпадения, история - выдумка.
 
  Technologies:
