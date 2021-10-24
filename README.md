@@ -15,6 +15,11 @@ Any coincidences are just coincidences, history is fiction.
 * Text Mesh Pro
 * Animation rigging
 
+ Controls:
+ * WSAD - move
+ * Space - attack
+ * Q - heal
+
 ![Pikcha](/Assets/Image/Main.PNG)
 
 ### By Dream (Владислав)
