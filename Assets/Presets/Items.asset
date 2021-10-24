@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be50b924a7aa4ad49670987e19f39340, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  boxDrops:
+  - item: {fileID: 7778563781513287697, guid: 197b8ce62fc0f104db32b7c5c8ae5956, type: 3}
+    chance: 25
+  - item: {fileID: 6028197292506791956, guid: 0daf7f1f579d0be44b1e39c4c8516cbb, type: 3}
+    chance: 25
+  - item: {fileID: 0}
+    chance: 50
+  slimeDrops:
+  - item: {fileID: 6028197292506791956, guid: 0daf7f1f579d0be44b1e39c4c8516cbb, type: 3}
+    chance: 20
+  - item: {fileID: 0}
+    chance: 80
