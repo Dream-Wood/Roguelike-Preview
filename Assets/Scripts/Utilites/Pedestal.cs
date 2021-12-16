@@ -8,7 +8,7 @@ public class Pedestal : MonoBehaviour
     private Artifacts _artifact;
     private GameObject _obj;
 
-    //TODO: Artifact Class?
+    //TODO: Artifact Struct?
     
     private void OnEnable()
     {

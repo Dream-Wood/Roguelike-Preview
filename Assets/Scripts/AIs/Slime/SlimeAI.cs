@@ -7,6 +7,7 @@ using UnityEngine;
 public class SlimeAI : Entity, IArtificialIntelligenceInit
 {
     [SerializeField] private SkinnedMeshRenderer smr;
+    [SerializeField] private GameObject deathEffect;
     private Transform _playerTransform;
     private GameObject _burningSkin;
     private Vector3 _modify;
@@ -15,9 +16,9 @@ public class SlimeAI : Entity, IArtificialIntelligenceInit
     public void Init(Room owner)
     {
         _owner = owner;
-        if (GameObject.FindWithTag("Player"))
+        if (FindObjectOfType<Player>())
         {
-            _playerTransform = GameObject.FindWithTag("Player").transform;
+            _playerTransform = FindObjectOfType<Player>().transform;
         }
         _burningSkin = Resources.Load<GameObject>("VFX/BurningSkin");
     }
@@ -46,6 +47,7 @@ public class SlimeAI : Entity, IArtificialIntelligenceInit
         if (hp - dmg.Value < 0)
         {
             _owner.EnemyDeath();
+            Destroy(Instantiate(deathEffect,transform.position,Quaternion.identity), 3f);
             Destroy(gameObject);
         }
     }

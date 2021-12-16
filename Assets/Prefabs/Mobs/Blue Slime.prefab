@@ -246,6 +246,7 @@ MonoBehaviour:
   drops: 1
   dropsCollections: {fileID: 11400000, guid: 2a80f11fc75678a438d0975c8f5fa84a, type: 2}
   smr: {fileID: 5078785030569787133}
+  deathEffect: {fileID: 3880966417240383969, guid: 265dc78b1dfb7734f9124d6ff64fb1b9, type: 3}
 --- !u!114 &4549546203055687203
 MonoBehaviour:
   m_ObjectHideFlags: 0

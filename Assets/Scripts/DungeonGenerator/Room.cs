@@ -19,11 +19,11 @@ namespace DungeonGenerator
         [SerializeField] private GameObject portal;
 
         private int _countEnemy;
-        private Transform _playerTransform;
+        private Player _player;
 
         private void OnEnable()
         {
-            _playerTransform = GameObject.FindWithTag("Player").transform;
+            _player = FindObjectOfType<Player>();
         }
 
         private void Initialize()
@@ -38,7 +38,7 @@ namespace DungeonGenerator
                 return;
             }
         
-            _countEnemy = Random.Range(1, 5);
+            _countEnemy = Random.Range(1, 5) * _player.GetIteration();
             for (int i = 0; i < _countEnemy; i++)
             {
                 Vector3 pos = new Vector3(Random.Range(-5, 5), 1, Random.Range(-5, 5));
@@ -55,7 +55,12 @@ namespace DungeonGenerator
 
         private void LateUpdate()
         {
-            if (Vector3.SqrMagnitude(transform.position - _playerTransform.position) > radiusActive)
+            if (_player == null)
+            {
+                return;
+            }
+            
+            if (Vector3.SqrMagnitude(transform.position - _player.transform.position) > radiusActive)
             {
                 light.SetActive(false);
             }

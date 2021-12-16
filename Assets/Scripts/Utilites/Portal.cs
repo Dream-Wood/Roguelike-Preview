@@ -10,6 +10,7 @@ public class Portal : MonoBehaviour
     {
         if (other.GetComponent<Player>())
         {
+            other.GetComponent<Player>().AddIteration();
             other.GetComponent<CharacterController>().enabled = false;
             other.transform.position = new Vector3(84, 1, 84);
             other.GetComponent<CharacterController>().enabled = true;

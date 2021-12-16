@@ -18,6 +18,8 @@ public class Player : Entity
 
     public event ChangeItems changeItems;
 
+    private int iteration = 1;
+
     [SerializeField] private ContactDamage contactDamage;
     [SerializeField] private List<Artifacts> artifacts = new List<Artifacts>();
 
@@ -36,6 +38,16 @@ public class Player : Entity
     {
         _spec = cp;
         UpdateStats();
+    }
+
+    public void AddIteration()
+    {
+        iteration++;
+    }
+    
+    public int GetIteration()
+    {
+        return iteration;
     }
 
     public void AddItem(DropItemType type)
