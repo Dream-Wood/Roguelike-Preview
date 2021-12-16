@@ -1,7 +1,7 @@
 # Roguelike-Preview
  Project repository preview
  
-### Unity 2021.2.0b16
+### Unity 2021.2 +
  
  This repository was created to showcase the skills of the creator. This is also a simplified version of another project.
 All resources were created by us, except for the icon pack [Assets / UI / IconPack (by Iconfinder)] and textures.
