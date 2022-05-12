@@ -5433,6 +5433,7 @@ Transform:
   - {fileID: 7307922029049632013}
   - {fileID: 7138452447010210068}
   - {fileID: 283974995515309917}
+  - {fileID: 63420019294926608}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5522,6 +5523,7 @@ MonoBehaviour:
   radiusActive: 200
   pedestal: {fileID: 6991359523039079758, guid: fccd0ab8fcbfa204288900c752b1da7e, type: 3}
   portal: {fileID: 0}
+  npc: {fileID: 5488262521580285989}
 --- !u!65 &879203786413194807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14800,6 +14802,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5716345115164400147, guid: 4ff50500e81d9c242bce58a826ec83b3, type: 3}
   m_PrefabInstance: {fileID: 3799391466972773823}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5119280801168339137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3976802945215916791}
+    m_Modifications:
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07856941
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521930207962144107, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_Name
+      value: Warlock
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+--- !u!4 &63420019294926608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+  m_PrefabInstance: {fileID: 5119280801168339137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5488262521580285989 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 802044720644374756, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+  m_PrefabInstance: {fileID: 5119280801168339137}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5983824d978233842972bea078280568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6846493730399953999
 PrefabInstance:
   m_ObjectHideFlags: 0

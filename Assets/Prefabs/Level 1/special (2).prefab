@@ -6678,6 +6678,7 @@ Transform:
   - {fileID: 6808617802492050950}
   - {fileID: 6048366408221983553}
   - {fileID: 1480625006784342553}
+  - {fileID: 5262832484490833332}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -6767,6 +6768,7 @@ MonoBehaviour:
   radiusActive: 200
   pedestal: {fileID: 6991359523039079758, guid: fccd0ab8fcbfa204288900c752b1da7e, type: 3}
   portal: {fileID: 0}
+  npc: {fileID: 414964236770306689}
 --- !u!65 &601253320488905209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14237,6 +14239,79 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5295139233962183290, guid: 6236d8051fe2eee4e9b1a3e38508155c, type: 3}
   m_PrefabInstance: {fileID: 299054944074000289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1072789831023798885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1275103782574102031}
+    m_Modifications:
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.6081467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7145729
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521930207962144107, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+      propertyPath: m_Name
+      value: Warlock
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+--- !u!114 &414964236770306689 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 802044720644374756, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+  m_PrefabInstance: {fileID: 1072789831023798885}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5983824d978233842972bea078280568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &5262832484490833332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5181961915058178001, guid: 08ab6b8635ec5f34c9f963a9d50dcefc, type: 3}
+  m_PrefabInstance: {fileID: 1072789831023798885}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1236687015649059861
 PrefabInstance:

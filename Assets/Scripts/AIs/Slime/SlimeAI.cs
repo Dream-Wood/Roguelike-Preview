@@ -8,6 +8,7 @@ public class SlimeAI : Entity, IArtificialIntelligenceInit
 {
     [SerializeField] private SkinnedMeshRenderer smr;
     [SerializeField] private GameObject deathEffect;
+    [SerializeField] private ParticleSystem vfxDmg;
     private Transform _playerTransform;
     private GameObject _burningSkin;
     private Vector3 _modify;
@@ -15,6 +16,7 @@ public class SlimeAI : Entity, IArtificialIntelligenceInit
 
     public void Init(Room owner)
     {
+        vfxDmg.Stop();
         _owner = owner;
         if (FindObjectOfType<Player>())
         {
@@ -33,6 +35,8 @@ public class SlimeAI : Entity, IArtificialIntelligenceInit
     {
         base.TakeDamage(dmg);
 
+        vfxDmg.Play();
+        
         if (dmg.Fire)
         {
             GameObject effect = Instantiate(_burningSkin, transform.parent);

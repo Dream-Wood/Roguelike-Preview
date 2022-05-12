@@ -17,6 +17,7 @@ namespace DungeonGenerator
         [SerializeField] private float radiusActive = 60;
         [SerializeField] private GameObject pedestal;
         [SerializeField] private GameObject portal;
+        [SerializeField] private NPCMiend npc;
 
         private int _countEnemy;
         private Player _player;
@@ -76,6 +77,7 @@ namespace DungeonGenerator
             {
                 if (isSpecial)
                 { 
+                    npc.ShowDialog();
                     Instantiate(pedestal, transform.position + Vector3.up * 10, Quaternion.identity);
                     Destroy(GetComponent<BoxCollider>());
                     return;
